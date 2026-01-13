@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import os
-import rclpy.node import Node
+from rclpy.node import Node
 from std_msgs.msg import String
 
 # Fill in something for msg type imports
