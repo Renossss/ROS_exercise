@@ -111,9 +111,7 @@ if __name__ == '__main__':
 To create a node, you need to follow a strict node structure
 
 It should have next: (we will use name `abc`)
- - `src` directory
  - `src/abc_package` directory
- - `src/abc_package/abc_package` directory
  - `src/abc_package/abc_package/abc_node.py` (code of the node)
  - `src/abc_package/resources/abc_package` (empty file)
  - `src/abc_package/package.xml` (package metadata)
@@ -138,5 +136,5 @@ source install/setup.bash
 To run the node, you need to run the following command:
 
 ```bash
-ros2 run abc_package abc_node
+ros2 run abc_package abc_node.py
 ```
